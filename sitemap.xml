@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.MarvelousMelbourne.com.au</loc>
+		<priority>1.00</priority>
+		<lastmod>2024-04-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.MarvelousMelbourne.com.au/photos.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-04-01</lastmod>
+	</url>
+	<url>
+		<loc>https://www.MarvelousMelbourne.com.au/contact.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-03-31</lastmod>
+	</url>
+	<url>
+		<loc>https://www.MarvelousMelbourne.com.au/about.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-03-31</lastmod>
+	</url>
+</urlset>

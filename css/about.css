@@ -1,0 +1,75 @@
+h2 {
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+}
+
+main > div {
+  background-color: #a3edff;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 20px;
+  text-align: left;
+  line-height: 0.5cm;
+}
+
+/* colour the text of links 0c1e3e */
+main > div > a {
+  color: #0c1e3e;
+  font-size: 18px;
+
+}
+
+/* Change the colour of links on hover using mouse */
+main > div > a:hover {
+  background-color: #0c1e3e;
+  color: #a3edff;
+}
+
+/* Change the color of links on focus using tab button */
+main > div > a:focus {
+  background-color: #0c1e3e;
+  color: #E3DFDE;
+  outline: none;
+}
+
+
+#container2 {
+  grid-area: area2;
+}
+
+#container3 {
+  grid-area: area3;
+}
+
+
+main {
+  background-color: #0c1e3e;
+  display: grid;
+  grid-template-areas:
+  '.'
+  'area2'
+  'area2'
+    'area3'
+    'area3'
+    'area3';
+  
+  grid-gap: 20px;
+  padding: 2px 20px;
+}
+
+/* For Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  main {
+    grid-template-areas:
+    '.     area3 '
+    'area2 area3 '
+    'area2 area3 ';
+  }
+
+}
